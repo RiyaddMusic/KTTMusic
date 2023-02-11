@@ -19,7 +19,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KTTMusicAsistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/karabakhteamm"
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/riyaddblog"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/riyaddblogg"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://thagiyevvvv")
+                         "⚙ Geliştirici", url="https://thagiyevv")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url="https://t.me/thagiyevvvv")
+            "⚙ Geliştirici", url="https://t.me/thagiyevv")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/thagiyevvvv")
+                         "⚙ Geliştirici", url="https://t.me/thagiyevv")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/thagiyevvvv")
+                         "⚙ Geliştirici", url="https://t.me/thagiyevv")
                  ],
                  [
                      InlineKeyboardButton(
@@ -136,7 +136,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KTTMusicasistan"
+                        "🔊 Asistan", url="https://t.me/KarabakhMusicasistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/Karabakhteamm"
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/riyaddblog"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/riyaddblogg"
                     )
                 ]
                 
