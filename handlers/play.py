@@ -199,7 +199,7 @@ async def play(_, message: Message):
         [
             [
                 InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/karabakhmusicbot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/riyaddblog"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/riyaddblogg"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -264,7 +264,7 @@ async def play(_, message: Message):
         [
             [
                 InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/karabakhmusicbot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/riyaddblog"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/riyaddblogg"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
